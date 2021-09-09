@@ -374,6 +374,7 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  justify-content: flex-start;
 }
 
 .address {
@@ -413,6 +414,67 @@ p {
   display: block;
   margin-left: 70px;
 }
+
+.subscribe {
+  width: 570px;
+  margin-left: auto;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-width: 200px;
+  padding: 10px 32px 10px 32px;
+  border: transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-color);
+  background-color: var(--accent-color);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.email-field {
+  width: 100%;
+  height: 50px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.email-field:placeholder-shown {
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+.field-label {
+  width: 100%;
+  margin-right: 12px;
+}
+
+.icon-send {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
 /* Icons */
 
 .icon-features {
@@ -473,11 +535,13 @@ p {
   margin-right: 30px;
 }
 
-.icon-item-clients :last-child {
+.icon-item-clients:last-child {
   margin-right: 0;
 }
 
 .icon-button-clients {
+  box-sizing: border-box;
+  width: 170px;
   margin: 0;
   padding: 0;
   color: #afb1b8;
