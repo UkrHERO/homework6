@@ -51,20 +51,24 @@
 
     <!-- Main -->
     <main>
-        <section class="hero">
+        <section class="section hero">
+            <div class="container">
             <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
             <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
+            </div>
             </section>
 
-         <!-- Modal form -->
+    <!-- Modal form -->
 
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <button class="close-button" data-modal-close>
-                        <svg class="icon-close">
-                            <use href='./images/sprite.svg#icon-close'></use>
-                        </svg>
-                    </button>
+                    <div class="close-button-box">
+                        <button class="close-button" data-modal-close>
+                            <svg class="icon-close">
+                                <use href='./images/sprite.svg#icon-close'></use>
+                            </svg>
+                        </button>
+                    </div>
 
             <form class="modal-form">
                 <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
@@ -79,7 +83,7 @@
                 <label class="field-modal-label">
                     <span class="label-title">Телефон</span>
                     <input class="input-field-modal" type="tel" name="tel">
-               <svg class="icon-modal" width="18" height="18">
+                <svg class="icon-modal" width="18" height="18">
                         <use href="./images/sprite.svg#icon-phone-black"></use>
                     </svg>
                 </label>
@@ -109,12 +113,11 @@
                 </form>
             </div>
             </div>
-       
 
     <!-- Features -->
 
+<section class="section features">
     <div class="container features">
-        <section class="features">
             <ul class="list">
                 <li class="list-item">
                     <div class="icon-features">
@@ -157,13 +160,13 @@
                         заданий.</p>
                 </li>
             </ul>
-        </section>
-        </div>
+            </div>
+            </section>
 
     <!-- Description -->
 
-        <div class="container">
-        <section>
+<section class="section">
+    <div class="container">
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="list list-description">
                 <li class="list-item">
@@ -184,12 +187,12 @@
                     <h3 class="label">Дизайнерские решения</h3>
                     </div></li>
             </ul>
-        </section>
-        </div>
+            </div>
+            </section>
 
         <!-- Team -->
-        <section class="team-section">
-            <div class="container">
+<section class="section team-section">
+    <div class="container">
             <h2 class="section-title team-title-main">Наша команда</h2>
             <ul class="list list-team">
                 <li class="team">
@@ -198,180 +201,180 @@
                     <p class="team-text">Product Designer</p>
             
                     <div class="icon-team">
-                        <button class="icon-button" type="button">
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
-                        </button>
+                        </a>
                     </div>
-
+            
                 </li>
                 <li class="team">
                     <img src="./images/team2.jpg" width="270" height="260" alt="Ольга Репина">
                     <h3 class="team-title">Ольга Репина</h3>
                     <p class="team-text">Frontend Developer</p>
-
-                                        <div class="icon-team">
-                        <button class="icon-button" type="button">
+            
+                    <div class="icon-team">
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
-                        </button>
+                        </a>
                     </div>
                 </li>
                 <li class="team">
                     <img src="./images/team3.jpg" width="270" height="260" alt="Николай Тарасов">
                     <h3 class="team-title">Николай Тарасов</h3>
                     <p class="team-text">Marketing</p>
-                                        <div class="icon-team">
-                        <button class="icon-button" type="button">
+                    <div class="icon-team">
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
-                        </button>
+                        </a>
                     </div>
                 </li>
                 <li class="team">
                     <img src="./images/team4.jpg" width="270" height="260" alt="Михаил Ермаков">
                     <h3 class="team-title">Михаил Ермаков</h3>
                     <p class="team-text">UI Designer</p>
-                                        <div class="icon-team">
-                        <button class="icon-button" type="button">
+                    <div class="icon-team">
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
-                        </button>
-
-                        <button class="icon-button" type="button">
+                        </a>
+            
+                        <a class="icon-button" href="">
                             <svg class="icon-social" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
-                        </button>
+                        </a>
                     </div>
                 </li>
             </ul>
             </div>
-        </section>
+            </section>
         
 
         <!-- Clients -->
 
-        <div class="container">
-        <section class="clients">
+        <section class="section clients">
+            <div class="container">
             <h2 class="section-title">Постоянные клиенты</h2>
             <ul class="list clients-icon">
                 <li class="icon-item-clients">
-                    <button class="icon-button-clients" type="button">
+                    <a class="icon-button-clients" href="">
                         <svg class="icon-clients" width="106" height="60">
                             <use href="./images/sprite.svg#icon-client1"></use>
                         </svg>
-                    </button>
+                    </a>
                 </li>
                 <li class="icon-item-clients">
-                    <button class="icon-button-clients" type="button">
+                    <a class="icon-button-clients" href="">
                         <svg class="icon-clients" width="106" height="60">
                             <use href="./images/sprite.svg#icon-client2"></use>
                         </svg>
-                    </button>
+                    </a>
                 </li>
                 <li class="icon-item-clients">
-                    <button class="icon-button-clients" type="button">
+                    <a class="icon-button-clients" href="">
                         <svg class="icon-clients" width="106" height="60">
                             <use href="./images/sprite.svg#icon-client3"></use>
                         </svg>
-                    </button>
+                    </a>
                 </li>
                 <li class="icon-item-clients">
-                    <button class="icon-button-clients" type="button">
+                    <a class="icon-button-clients" href="">
                         <svg class="icon-clients" width="106" height="60">
                             <use href="./images/sprite.svg#icon-client4"></use>
                         </svg>
-                    </button>
+                    </a>
                 </li>
                 <li class="icon-item-clients">
-                    <button class="icon-button-clients" type="button">
+                    <a class="icon-button-clients" href="">
                         <svg class="icon-clients" width="106" height="60">
                             <use href="./images/sprite.svg#icon-client5"></use>
                         </svg>
-                    </button>
+                    </a>
                 </li>
                 <li class="icon-item-clients">
-                    <button class="icon-button-clients" type="button">
+                    <a class="icon-button-clients" href="">
                         <svg class="icon-clients" width="106" height="60">
                             <use href="./images/sprite.svg#icon-client6"></use>
                         </svg>
-                    </button>
+                    </a>
                 </li>
-
             </ul>
-        </section>
-        </div>
+            </div>
+            </section>
+
     </main>
 
     <!-- Footer -->
@@ -390,29 +393,29 @@
 
         <div class="icon-footer">
             <h3 class="footer-title">Присоединяйтесь</h3>
-            <button class="icon-button-footer" type="button">
+            <a class="icon-button-footer" href="">
                 <svg class="icon-social-footer" width="20" height="20">
                     <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
-            </button>
-        
-            <button class="icon-button-footer" type="button">
+            </a>
+            
+            <a class="icon-button-footer" href="">
                 <svg class="icon-social-footer" width="20" height="20">
                     <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
-            </button>
-        
-            <button class="icon-button-footer" type="button">
+            </a>
+            
+            <a class="icon-button-footer" href="">
                 <svg class="icon-social-footer" width="20" height="20">
                     <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
-            </button>
-        
-            <button class="icon-button-footer" type="button">
+            </a>
+            
+            <a class="icon-button-footer" href="">
                 <svg class="icon-social-footer" width="20" height="20">
                     <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
-            </button>
+            </a>
         </div>
 
         <div class="subscribe">
