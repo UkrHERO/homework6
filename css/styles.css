@@ -27,7 +27,8 @@ h4,
 h5,
 h6,
 ul,
-p {
+p,
+button {
   margin: 0;
   padding: 0;
 }
@@ -326,6 +327,9 @@ p {
 }
 
 .close-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 8px;
   margin-right: 8px;
   width: 30px;
@@ -337,8 +341,8 @@ p {
 }
 
 .icon-close {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
   fill: var(--second-color);
 }
 
@@ -864,11 +868,11 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-item:hover .project-thumb::before {
+.project-link:hover .project-thumb::before {
   transform: translateY(0%);
 }
 
-.project-item:hover .thumb-desc {
+.project-link:hover .thumb-desc {
   transform: translateY(0%);
 }
 
